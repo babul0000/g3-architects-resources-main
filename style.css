@@ -1,0 +1,72 @@
+*{
+    max-width: 1500px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+.navbar{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 64px auto 0px auto;
+    align-items: center;
+    
+}
+.navbar-item{
+   display: flex;
+   text-decoration: none;
+   list-style: none;
+   gap: 40px;
+}
+.navbar-item a{
+    text-decoration: none;
+}
+.all-pragraph-text a{
+    font-size: 1.2rem;
+    color: #424242;
+    font-weight: 500;
+}
+.heading{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* heding section */
+
+.heading-img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* common class */
+.max-sizeing{
+    mx-width: 1200px;
+    margin: 
+}
+
+.all-heding-text{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+}
+.pragraph-tag{
+color: #727272;
+line-height: 26px;
+margin: 32px 0 32px 0;
+}
+.explore-btn{
+    background-color: #FF900E;
+    padding: 21px 25px 20px 24px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    width: 180px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 51px;
+}
