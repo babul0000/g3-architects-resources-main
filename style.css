@@ -16,14 +16,20 @@
     align-items: center;
     
 }
+.humberger{
+    display: none;
+}
 .navbar-item{
-   display: flex;
-   text-decoration: none;
-   list-style: none;
-   gap: 40px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-align: center;
 }
 .navbar-item a{
     text-decoration: none;
+}
+/* .humberger{
+    font-size: 3rem; */
 }
 .all-pragraph-text a{
     font-size: 1.2rem;
@@ -40,7 +46,8 @@
 
 .heading-img{
     max-width: 100%;
-    margin: 0 auto;
+    margin: 50px auto 122px auto;
+    
 }
 
 /* common class */
@@ -69,4 +76,59 @@ margin: 32px 0 32px 0;
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 51px;
+}
+.grid-container{
+    max-width: 1200px;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+    
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.grid-pragraph{
+    
+}
+.heading-1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #727272;
+}
+.heading-2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+}
+.heading-3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FF900E;
+}
+
+/* mobaile phone screen responsive */
+@media screen and (max-width:576px){
+    .navbar{
+        display: flex;
+        grid-template-columns: repeat(1 1fr);
+        width: 100%;
+        margin: 30px auto;
+        vertical-align: middle;
+        
+    }
+    .navbar-item{
+        display: none;
+    }
+    #header{
+        padding: 25px 25px;
+    }
+    .humberger{
+        display: contents;
+        font-size: xx-large;
+        
+    }
 }
